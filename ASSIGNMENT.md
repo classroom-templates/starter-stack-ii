@@ -130,7 +130,7 @@ The Stack must **not** use:
 - an array of `Data*`
 - dynamic allocation of individual `Data` objects
 
-The Stack owns one dynamically allocated array of `Data`.
+Each Stack object owns exactly one dynamically allocated array of `Data`.
 
 ---
 
@@ -492,7 +492,7 @@ Do not expose internal memory addresses.
 
 Do not dynamically allocate individual `Data` objects for this assignment.
 
-This assignment uses one dynamically allocated array of `Data`.
+Each Stack object releases its own dynamically allocated array in its destructor
 
 ---
 
