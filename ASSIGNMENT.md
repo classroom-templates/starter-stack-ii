@@ -106,6 +106,8 @@ Do **not** modify `data.h`.
 
 Include `data.h` in `stack.h` so the `Data` type is available to the Stack interface and implementation.
 
+Because stack.h also uses std::string directly in its own interface, it must include <string> itself rather than relying on data.h to provide that dependency.
+
 ---
 
 ## Stack Requirements
