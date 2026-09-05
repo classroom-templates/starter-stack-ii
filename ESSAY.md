@@ -16,8 +16,6 @@ Instead, explain **what you did, why you did it, and what you learned or verifie
 
 Whenever possible, include a **specific example from your program, your testing, or your interaction with AI**.
 
-Each question is worth **2 points**, for a total of **10 points**.
-
 Number your answers.
 
 ## 1. How did you use AI while completing this assignment?
